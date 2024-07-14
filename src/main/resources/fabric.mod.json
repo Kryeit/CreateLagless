@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "createlagless",
+  "version": "${version}",
+  "name": "Create: Lagless",
+  "description": "Tries to remove lag from Create servers",
+  "authors": [
+    "MuriPlz"
+  ],
+  "contact": {
+    "sources": "https://github.com/Kryeit/CreateLagless"
+  },
+  "license": "CC0",
+  "icon": "assets/createlagless/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kryeit.createlagless.Main"
+    ]
+  },
+  "mixins": [
+    "createlagless.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric-api": "*",
+    "create": "*",
+    "minecraft": "1.20.1"
+  }
+}
